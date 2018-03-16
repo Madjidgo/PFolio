@@ -111,6 +111,33 @@ textarea {
 
   }
 
+  .aboutMe{
+    display: none;
+    font-size: 3.2rem;
+  }
+
+  .headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .font1 {
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  .font2 {
+    font-family: 'Cagliostro', sans-serif;
+  }
+
+  .projectGroup{
+    margin: 1em;
+  }
+
+  .card a {
+    color: rgba(51,51,51);
+    margin: 0 0.5em;
+  }
 
 
 

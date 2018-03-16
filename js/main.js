@@ -40,3 +40,15 @@ $(document).ready(function(){
       $('.modal').modal();
 
  });
+
+    //  fadeIn,color
+  $(document).ready(function(){
+    $('.aboutMe').css('color','white');
+    $('.aboutMe').fadeIn(5000,function(){
+
+    });
+   
+   
+
+   
+    });

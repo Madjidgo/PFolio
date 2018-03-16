@@ -11,17 +11,17 @@
         <link rel="icon" type="png" href="mg.jpg" />
         <!-- Place favicon.ico in the root directory -->
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
         <link rel="stylesheet" href="font5/web-fonts-with-css/css/fontawesome-all.css">
         <link rel="stylesheet" href="fonts/css/fontawesome.min.css">
         <link rel="stylesheet" href="css/materialize.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
+         <link href="https://fonts.googleapis.com/css?family=Cagliostro|Exo+2" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/main.css">
     </head>
 
 <!-- navbar -->
             <nav  class="fixed" id="menu">
-              <div  id="home" class="  deep-orange lighten-2  nav-wrapper">
+              <div  id="home" class="deep-orange lighten-2  nav-wrapper">
               <a href="#"  class="brand-logo" data-activates="slide-out" class="btn button-collapse"></a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
@@ -30,15 +30,7 @@
                 <li><a href="#formation">Formation</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
-              <ul class="side-nav" id="mobile-demo">
-                <li><div class="user-view">
-                 <div class="background responsive-img">
-                   <img src="img/responsive.jpg">
-                 </div>
-                 <a href="#!user"><img class="circle" src="img/Mad.png"></a>
-                 <a href="#!name"><span class="black-text name">Madjid Goumidi</span></a>
-                 <a href="mailto:madjidgo@gmail.com"><span class="black-text email">madjidgo@gmail.com</span></a>
-               </div></li>
+              <ul class="side-nav deep-orange lighten-2" id="mobile-demo">
                 <li><a href="#home"><!-- Home --></a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#formation">Formation</a></li>
@@ -51,66 +43,46 @@
 
                   <!-- parallax -->
 
-              <div id="formation" class="parallax-container ">
+              <div id="formation" class="parallax-container headerContainer">
                     <div class="parallax  responsive-img"><img src="img/header.jpg"></div>
-                    <div class=" responsive-img"><img src="img/Mad.png"></div>
+                  	<h1 class="aboutMe center font2">Madjid Developpeur Web Junior</h1>
               </div>
 
-              <div class="section white">
-                  <div class="row container">
-                      <h3 class="header center">Formation et Langages</h3>
-                        <hr>
-                          <p class=" center red-text text-darken-3 lighten-3"> <strong>Formation Développeur Web Junior:</strong><br>
-                          Bienvenue sur mon portfolio, je m'appelle Madjid Goumidi je viens de suivre une formation de 3mois en Front et une autre de 6 mois en BACk à la fin de celle-ci j'ai obtenu une attestation en tant que Développeur web junior fullstack délivrée par  Simplon Roubaix.
-                          Au travers de ce portfolio j'aimerais vous présenter certains projets en "HTML5,CSS3,BOOSTRAP4,JAVASCRIPT,PHP,MYSQL..."</p>
-                            <!-- caroussel -->
-                     <!--  <div class="carousel">
-                          <a class="carousel-item" href="#two!"><img src="img/jquery.png"></a>
-                          <a class="carousel-item" href="#one!"><img src="img/html5_css3.jpg"></a>
-                          <a class="carousel-item" href="#seven!"><img src="img/css3.jpeg"></a>
-                          <a class="carousel-item" href="#three!"><img src="img/js.jpg"></a>
-                          <a class="carousel-item" href="#four!"><img src="img/linux.jpg"></a>
-                          <a class="carousel-item" href="#five!"><img src="img/b4.png"></a>
-                          <a class="carousel-item" href="#six!"><img src="img/php.jpg"></a>
-
-                      </div> -->
-
-                  </div>
-                </div>
-
-                <div class="parallax-container p2">
-                  <div class="parallax responsive-img"><img src="img/header.jpg"></div>
-                </div>
-
-            <!-- cards -->
-                <h3 class="center">PortFolio</h3>
+              <!-- cards -->
+                <h3 class="center">Mes projets</h3>
                   <hr>
                 <div  id="portfolio" class="container">
+
+                <h4 class="projectGroup">Back-end PHP</h4>
+
                   <div class="row">
 
                 <!-- n1 -->
-                  <div class="card  z-depth-5 col s12 m6 l4 ">
-                    <div class="card-image   responsive-img waves-effect waves-block waves-light">
+                  <div class="card  z-depth-5 col s12 m6 l4 offset-l1">
+                    <div class="card-image responsive-img waves-effect waves-block waves-light">
                       <img class="activator " src="img/kabyle.jpg">
                     </div>
                     <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Projet Slider <a class="btn-floating  waves-light right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
-                      <p><a  href="https://madjidgo.github.io/slider-en-javascript/">click</a></p>
+                      <span class="card-title activator grey-text text-darken-4 font1">Projet Slider <a class="btn-floating  waves-light right waves-effect waves-light deep-orange"><i class="material-icons">add</i></a></span>
+                      <p>
+                        <a href="https://github.com/Madjidgo/slider-en-javascript"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://madjidgo.github.io/slider-en-javascript/"><i class="fab fa-wpexplorer fa-2x"></i></a>
+                      </p>
                     </div>
                     <div class="card-reveal">
                       <span class="card-title grey-text text-darken-4">Card Slider<i class="material-icons right">close</i></span>
-                      <p>Completed project JS.</p>
+                      <p>Réalisation d'un slider en pur JavaScript. Objectif : travailler le DOM, la gestion des événements et les intervalles. J'ai ajouté un fichier audio géré lui aussi en JavaScript.</p>
                     </div>
                   </div>
 
 
             <!-- n2 -->
-                  <div class="card  z-depth-5 col s12 m6 l4">
+                  <div class="card  z-depth-5 col s12 m6 l4 offset-l1">
                       <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator responsive-img" src="img/leboncoin.jpg">
                       </div>
                       <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Leboncoin <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                        <span class="card-title activator grey-text text-darken-4 font1">Card Leboncoin <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                         <p><a href="https://madjidgo.github.io/leboncoin/offres.html">click</a></p>
                       </div>
                       <div class="card-reveal">
@@ -119,14 +91,18 @@
                       </div>
                     </div>
 
+                    </div>
 
-            <!-- n3 -->
-                  <div class="card z-depth-5 col s12 m6 l4">
+                  <h4 class="projectGroup">Front-end JS</h4>
+
+                  <div class="row">
+                    
+                    <div class="card z-depth-5 col s12 m6 l4 offset-l1">
                       <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator responsive-img" src="img/dos.jpg">
                       </div>
                       <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Memories <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                        <span class="card-title activator grey-text text-darken-4">Card Memories <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                         <p><a href="https://madjidgo.github.io/memories/">click</a></p>
                       </div>
                       <div class="card-reveal">
@@ -137,12 +113,12 @@
 
 
               <!-- n2 -->
-                    <div class="card  z-depth-5 col s12 m6 l4">
+                    <div class="card  z-depth-5 col s12 m6 l4 offset-l1">
                       <div class="card-image  responsive-img waves-effect waves-block waves-light">
                         <img class="activator " src="img/imgback.jpg">
                       </div>
                       <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Tatoo <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                        <span class="card-title activator grey-text text-darken-4">Card Tatoo <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                         <p><a href="https://madjidgo.github.io/projettatoo/">click</a></p>
                       </div>
                       <div class="card-reveal">
@@ -151,14 +127,19 @@
                       </div>
                     </div>
 
+                  </div>
 
-              <!-- n3 -->
-                    <div class="card  z-depth-5 col s12 m6 l4">
+                    <h4 class="projectGroup">Intégration HTML/CSS</h4>
+
+                    <div class="row">
+                      
+                      <!-- n3 -->
+                    <div class="card  z-depth-5 col s12 m6 l4 offset-l1">
                       <div class="card-image    responsive-img waves-effect waves-block waves-light">
                         <img class="activator " src="img/airbnb.jpg">
                       </div>
                       <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Airbnb <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                        <span class="card-title activator grey-text text-darken-4">Card Airbnb <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                         <p><a href="https://madjidgo.github.io/projetairbnb/">click</a></p>
                       </div>
                       <div class="card-reveal">
@@ -169,12 +150,12 @@
 
 
                 <!-- n4 -->
-                    <div class="card z-depth-5 col s12 m6 l4">
+                    <div class="card z-depth-5 col s12 m6 l4 offset-l1">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator responsive-img" src="img/slider-1.jpg">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Coach <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                            <span class="card-title activator grey-text text-darken-4">Card Coach <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                             <p><a href="https://madjidgo.github.io/coach-sportif/">click</a></p>
                         </div>
                         <div class="card-reveal">
@@ -184,12 +165,12 @@
                     </div>
 
                       <!-- n7 -->
-                      <div class="card z-depth-5 col s12 m6 l4 ">
+                      <div class="card z-depth-5 col s12 m6 l4 offset-l1">
                           <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator responsive-img" src="img/tech.jpeg">
                           </div>
                           <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Memories <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                            <span class="card-title activator grey-text text-darken-4">Card Memories <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                             <p><a href="https://madjidgo.github.io/blog/">click</a></p>
                           </div>
                           <div class="card-reveal">
@@ -202,12 +183,12 @@
 
 
               <!-- n9 -->
-                      <div class="card  z-depth-5 col s12 m6 l4">
+                      <div class="card  z-depth-5 col s12 m6 l4 offset-l1">
                           <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator responsive-img" src="img/palais.jpeg">
                           </div>
                           <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Palais de lille <a class="btn-floating right waves-effect waves-light orange "><i class="material-icons">add</i></a></span>
+                            <span class="card-title activator grey-text text-darken-4">Card Palais de lille <a class="btn-floating right waves-effect waves-light deep-orange "><i class="material-icons">add</i></a></span>
                             <p><a href="  https://juliecanevet.github.io/palais/">click</a></p>
                           </div>
                           <div class="card-reveal">
@@ -217,8 +198,53 @@
                       </div>
 
                   </div>
+
+                    </div>
+
+    
+
+                <div class="parallax-container p2 headerContainer">
+                  <div class="parallax responsive-img"><img src="img/header.jpg"></div>
+                  <h2 class="aboutMe center font2">Je recherche un stage de développeur web <br>découvrez mon profil ! </h2>
                 </div>
 
+                          <!-- 
+
+              Formation eyt lanages 
+
+              -->
+
+              <div class="section white">
+                  <div class="row container">
+                      <h3 class="header center">Me découvrir</h3>
+                        <hr>
+                          <p class=" center text-darken-3 lighten-3">
+                          Bonjour et bienvenue sur mon portoflio. Je vous remercie de prendre le temps de découvrir mon profil et mon parcours.
+                          A près une carrière riche en expérience dans le secteur social où j'ai exercé des fonctions d 'éducateur et de responsable de secteur pendant plus de 10 ans, j'ai décidé de donner libre cours à ma passion pour l'informatique et d'entamer une reconvertion professionnelle. <br><br>
+
+                          J'ai donc suivi une formation intensive de développeur web pendant 9 mois à <a href="https://www.adep-roubaix.fr/developpeur">Simplon Roubaix</a>. J'ai découvert avec plaisir l'environnement Linux, l'intégration web en HTML/CSS, le développement de programme front en JS et la programmation back-end en PHP. Je m'intéresse tout paticulièrement à la gestion des données, des utilisateurs et à la programmation orientée objet C'est pourquoi j'ai choisi de me spécialiser en PHP. J'utilise le framework Laravel depuis la fin de ma formation et j'apprends tout les jours de nouvelles pratiques de programmation. <br><br>
+                          Je suis une personne curieuse et dynamique qui aime s'investir dans de nouveaux projets. J'ai développé ce sens de l'engagement au travers de mes expériences dans le secteur social. J'aime particulièrement la programmation car elle me permet d'être en perpetuel apprentissage et de relever de nouveaux challenges au quotidien. Aujourd'hui j'espère intégrer, en stage, une entreprise du web où je pourrai continuer ma montée en compétence auprès d'une équipe de professionnels. 
+                          </p>
+                  </div>
+                </div>
+
+
+                              <div class="section white">
+                  <div class="row container">
+                      <h3 class="header center">Langages et outils</h3>
+                      <hr>
+
+                      <div>
+
+                      </div>
+
+                      <div>
+                        
+
+                      </div>
+
+                  </div>
+                </div>
 
 
 <!-- arrow -->
@@ -233,17 +259,16 @@
                     <footer id="contact" class="page-footer deep-orange lighten-2">
                         <div class="container">
                           <div class="row">
-                            <div class="col l6 s12">
+                            <div class="col l4 s12">
                               <h5 class="white-text">Réseaux Sociaux</h5>
                               <p class="grey-text text-lighten-4">Vous pouvez me suivre sur:</p>
                             </div>
                             <div class="col l4 offset-l2 s12">
-                              <h5 class="white-text">Liens</h5>
                               <ul>
-                                <li><a class="grey-text text-lighten-3" href="https://github.com/Madjidgo"><i class="fab  fa-github fa-2x"></i>:Github</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/madjid-g-60502aa0/"><i class="fab fa-linkedin-in fa-2x"></i>:Linkedin</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://twitter.com/madjidgo"><i class="fab fa-twitter-square fa-2x"></i>:Twitter</a></li>
-                                <li><a class="grey-text text-lighten-3" href="mailto:madjidgo@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>:Gmail</a></li>
+                                <li><a class="grey-text text-lighten-3" href="https://github.com/Madjidgo"><i class="fab fa-github fa-2x"></i></a></li>
+                                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/madjid-g-60502aa0/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                                <li><a class="grey-text text-lighten-3" href="https://twitter.com/madjidgo"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                                <li><a class="grey-text text-lighten-3" href="mailto:madjidgo@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
                                
                                 
                               </ul>
