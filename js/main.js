@@ -48,7 +48,4 @@ $(document).ready(function(){
 
     });
    
-   
-
-   
     });
